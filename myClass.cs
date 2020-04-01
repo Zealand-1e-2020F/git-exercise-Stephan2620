@@ -21,8 +21,8 @@ namespace GitExercise
             _postnr = postnr;
             
         }
-        public override ToString(){
-            return $"{navn}'s adresse er {adresse} i {postnr}";
+        public override string ToString(){
+            return $"{navn}'s adresse er {adress} i {postnr}";
         }
     }
 }
