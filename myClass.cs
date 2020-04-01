@@ -15,13 +15,11 @@ namespace GitExercise
             public string by { get; set; }
             
 
-        public myClass(string navn, string adress, int postnr, string by)
-        {
+        public myClass(string navn, string adress, int postnr, string by){
             _navn = navn;
             _adress = adress;
             _postnr = postnr;
             _by = by;
-            
         }
         public override string ToString(){
             return $"{navn}'s adresse er {adress} i {by} {postnr}";
