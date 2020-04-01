@@ -3,14 +3,9 @@ namespace GitExercise
     class myClass
     {
         
-            private string _navn;
+            private string _navn; 
             private string _adress;
             private int _postnr;
-
-            
-            public string navn { get; set; }
-            public string adress { get; set; }
-            public int postnr { get; set; }
 
             
 
@@ -21,8 +16,12 @@ namespace GitExercise
             _postnr = postnr;
             
         }
-        public override ToString(){
-            return $"{navn}'s adresse er {adresse} i {postnr}";
+            public string navn { get; set; }
+            public string adress { get; set; }
+            public int postnr { get; set; }
+
+        public override string ToString(){
+            return $"{navn}s adresse er {adress} i {postnr}";
         }
     }
 }
