@@ -24,5 +24,6 @@ namespace GitExercise
         public override string ToString(){
             return $"{navn}'s adresse er {adress} i {postnr}";
         }
+        // ¨HEJ MED DIG
     }
 }
